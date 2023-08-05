@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    margin: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/** GITHUB LOGO **/
+a{
+    color: black;
+}
+.github-logo{
+    font-size:xx-large;
+    align-self: flex-end;
+}
+
+/** INFORMATION **/
+.information{
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/** ASSIGNMENTS **/
+.assignment-heading{
+    text-align: center;
+}
+
+/** BUTTONS **/
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30px;
+}
+
+button{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover{
+    background-color: rgba(214, 214, 214, 0.785);
+}
+
+.icon{
+    font-size: xx-large;
+}
